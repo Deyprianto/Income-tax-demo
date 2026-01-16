@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Income Tax Calculator"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColorHighlight="#C65252"
+        android:textColor="#DA4D43"
+        android:layout_marginTop="10dp"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boxshape"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Enter your yearly income"
+        android:textColor="#745E4B"
+        android:textSize="24sp"
+        android:background="@drawable/smallbox"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edIncome"
+       android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/smallbox"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:hint="Enter your income"
+        android:textSize="20sp"
+        android:textColor="#42403E"
+        android:paddingLeft="10dp"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Enter tax prayarer type"
+        android:textColor="#675F52"
+        android:textSize="24sp"
+        android:background="@drawable/smallbox"
+        android:padding="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/smallbox"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E19090"
+        android:textSize="24sp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="Button" />
+
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/smallbox"
+
+        />
+
+
+</LinearLayout>
+
+</LinearLayout>

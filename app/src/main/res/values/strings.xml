@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Income Tax</string>
+
+    <string-array name = "spinner_plan">
+        <item> Male</item>
+        <item> Female</item>
+        <item> Older Citizen</item>
+    </string-array>
+</resources>
